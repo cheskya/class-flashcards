@@ -1,0 +1,35 @@
+db: ISA stands for?	information systems architecture	ISA
+db: What is an ISA?	a conceptual plan containing the desired information systems structure of an organization	ISA
+db: Who developed the framework for developing an ISA?	John Zachman	ISA
+db: Why is an ISA essential?	to avoid chaos due to the increased scope and complexity of information systems	ISA
+db: What are the six components of an ISA?	(1) data, (2) processes/functions, (3) network, (4) people, (5) events/times, and (6) reasons/motivations	ISA
+db,ISA: component corresponding to “what”?	data	ISA
+db,ISA: component corresponding to “how”?	processes/functions	ISA
+db,ISA: component corresponding to “where”?	networks	ISA
+db,ISA: component corresponding to “who”?	people	ISA
+db,ISA: component corresponding to “when”?	events/times	ISA
+db,ISA: component corresponding to “why”?	reasons/motivations	ISA
+db,ISA: data component is?	data entities and their relationships	ISA
+db,ISA: processes/functions component is?	procedures that convert inputs to outputs	ISA
+db,ISA: networks component is?	locations for data storage and processing	ISA
+db,ISA: people component is?	performs processes and are sources and recipients of data	ISA
+db,ISA: events/times component is?	points in time when processes are performed	ISA
+db,ISA: reasons/motivations component is?	rules that govern data processing	ISA
+db: DDLC stands for?	database development life cycle	DDLC
+db: What is DDLC?	a method for designing, implementing, and maintaining database systems	DDLC
+db: What are the six stages of DDLC?	(1) preliminary planning, (2) feasibility study, (3) requirements analysis, (4) design, (5) implementation, and (6) maintenance	DDLC
+db,DDLC: What is preliminary planning?	planning for a specific database system	DDLC
+db,DDLC: When does the preliminary planning take place?	during the strategic database planning	DDLC
+db,DDLC: Preliminary planning gathers (...) that can be used to (...) between (...)	information, establish relationships, current applications	DDLC
+db,DDLC: A feasibility study determines what types of feasibility?	technological, operational, schedule, and economic feasibility	DDLC
+db,DDLC: Besides different types of feasibility, what else does a feasibility study determine?	costs and benefits, both tangible and intangible	DDLC
+db,DDLC: In a requirements analysis, what is identified?	information requirements	DDLC
+db,DDLC: In a requirements analysis, what is defined?	the scope of the database	DDLC
+db,DDLC: In a requirements analysis, what is established?	hardware and software requirements	DDLC
+db,DDLC: In a requirements analysis, what is developed?	detailed specifications for the information systems required to support the organization	DDLC
+db,DDLC: What is done in the design stage?	transform the information models to those which conform to the target technology for implementation	DDLC
+db,DDLC: What are the two substages of the design stage?	logical database design and physical database design	DDLC
+db,DDLC: What is done in the implementation stage?	development and installation of the database system	DDLC
+db,DDLC: During maintenance, what is corrected?	system errors	DDLC
+db,DDLC: During maintenance, what is enhanced and why?	the system, to fit changing requirements	DDLC
+db,DDLC: Besides correcting and enhancing, what else is done during maintenance?	backup and recovery	DDLC

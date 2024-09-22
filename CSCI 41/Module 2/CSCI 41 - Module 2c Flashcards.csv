@@ -1,0 +1,17 @@
+ERD: definition of subtype	subgroup of an entity type w/ attributes distinct from those in other subgroups
+ERD: definition of supertype	generic entity type w/ a relationship with one or more subtypes
+ERD: definition of inheritance	subtype’s attributes are also supertype’s attributes, subtype instance is also supertype instance
+ERD: If there is a relationship at supertype level?	subtypes participate in the relationship also
+ERD: If there is a relationship at subtype level?	relationship unique to that subtype
+ERD: definition of generalization	process of defining generic entity type from specialized entity types
+ERD: definition of specialization	process of defining subtypes then supertype/subtype relationships
+ERD: What do completeness constraints do?	indicates whether an instance of a supertype must also be a member of at least one subtype
+ERD,compcon: definition of total specialization rule	instance of the supertype must also be a member of at least one subtype
+ERD,compcon: definition of partial specialization rule	instance of the supertype doesn’t have to be a member of a subtype
+ERD: What do disjointness constraints do?	indicates whether an instance of a supertype can be a member of two or more subtypes
+ERD,discon: definition of disjoint rule	instance of the supertype can only be one subtype
+ERD,discon: definition of overlap rule	instance of the supertype can be one or more subtypes
+ERD: definition of subtype discriminator	attribute of the supertype whose values determine the target subtype
+ERD,subdisc: disjoint should have (...) attribute	simple
+ERD,subdisc: overlap should have (...) attribute	composite
+ERD: definition of entity clusters	set of one or more entity types and associate relationships grouped into a single abstract entity type

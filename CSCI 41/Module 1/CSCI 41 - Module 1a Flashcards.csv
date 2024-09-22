@@ -1,0 +1,146 @@
+Prior to the emergence of database systems, what type of systems were used to organizing data?	file processing systems	systems file-systems
+What did file processing systems do with organizational data?	kept them in numerous files	systems file-systems
+In a file processing system, what are application programs used for?	to manage the interrelationships of files when there is need to link data from different files	systems file-systems
+definition of database?	an organized collection of logically related data that can be processed by multiple application systems and can be shared by multiple users	systems database-systems
+A database is an organized collection of  (...)	logically related data	systems database-systems
+A database’s data can be processed by multiple (...)	application systems	systems database-systems
+A database’s data can be shared by multiple (...)	users	systems database-systems
+db: traditional definition of data?	facts concerning objects and events that can be recorded and stored on computer media	data-and-information
+db: traditional definition of data focused on what?	structured data	data-and-information
+db: traditional definition of data did not consider what?	unstructured data	data-and-information
+db: updated definition of data?	stored representation of objects and events that have meaning and importance in the user’s environment	data-and-information
+db: definition of information?	data that have been processed in such a way as to increase the knowledge of the person who uses the data	data-and-information
+db: difference between data and information?	information can be understood	data-and-information
+db: definition of metadata?	data that describes the properties or characteristics of end-user data and the context of that data	data-and-information
+db, traddata: data are (...) concerning objects and events	facts	data-and-information
+db, traddata: data can be recorded and stored on (...)	computer media	data-and-information
+db, upddata: data is a (...) of objects and events	stored representation	data-and-information
+db, upddata: data has meaning and importance in the (...)	user’s environment	data-and-information
+db: information is (...) that has been processed	data	data-and-information
+db: information increases the (...) of the person who uses it	knowledge	data-and-information
+db: metadata is data that describes the properties or characteristics of (...) and (...)	end-user data, the context of that data	data-and-information
+db: metadata is data that describes the (...) or (...) of end-user data and the context of that data	properties, characteristics	data-and-information
+A database system is composed of what five things?	(1) data stored in the database, (2) DBMS, (3) software and applications, (4) hardware, and (5) people	systems database-systems
+software in a database system includes what?	DBMS, CASE tools, application software and utilities, report writers, user interface, operating system, etc.	systems database-systems
+people in a database system includes who?	data and database administrators, systems developers, programmers, system administrators, etc.	systems database-systems
+db: program-data dependence falls under?	disadvantages of file systems	systems file-systems
+db: data redundancy falls under?	disadvantages of file systems	systems file-systems
+db: data inconsistency falls under?	disadvantages of file systems	systems file-systems
+db: poor data control falls under?	disadvantages of file systems	systems file-systems
+db: limited data sharing falls under?	disadvantages of file systems	systems file-systems
+db: lengthy development times falls under?	disadvantages of file systems	systems file-systems
+db: excessive program maintenance falls under?	disadvantages of file systems	systems file-systems
+db: program-data independence falls under?	advantages of database systems	systems database-systems
+db: minimal data redundancy falls under?	advantages of database systems	systems database-systems
+db: improved data consistency falls under?	advantages of database systems	systems database-systems
+db: increased productivity of application development falls under?	advantages of database systems	systems database-systems
+db: enforcement of standards falls under?	advantages of database systems	systems database-systems
+db: Iimproved data accessibility and responsiveness falls under?	advantages of database systems	systems database-systems
+db: reduced program maintenance falls under?	advantages of database systems	systems database-systems
+db: improved decision support falls under?	advantages of database systems	systems database-systems
+db: specialized personnel falls under?	limitations of database systems	systems database-systems
+db: installation and management costs and complexity falls under?	limitations of database systems	systems database-systems
+db: conversion costs falls under?	limitations of database systems	systems database-systems
+db: need for explicit backup and recovery falls under?	limitations of database systems	systems database-systems
+db: organizational conflict falls under?	limitations of database systems	systems database-systems
+db: cross-entity linking mechanism falls under?	features of a DBMS	DBMS
+db: data dictionary falls under?	features of a DBMS	DBMS
+db: query language falls under?	features of a DBMS	DBMS
+db: mechanisms for data access falls under?	features of a DBMS	DBMS
+db: data manipulation language falls under?	features of a DBMS	DBMS
+db: 4GL application development software falls under?	features of a DBMS	DBMS
+db: disaster recovery and concurrency control falls under?	features of a DBMS	DBMS
+db: What are the seven features of a DBMS?	(1) data dictionary, (2) query language, (3) data manipulation language, (4) cross-entity linking mechanism, (5) mechanisms for data access, (6) 4GL application development software, and (7) disaster recovery and concurrency control (data, language, mecchanisms, software, recovcontrol)	DBMS
+db: DBMS stands for?	database management systems	DBMS
+db,dbms: linking mechanism allow for linking together (...)	related entities	DBMS
+db,dbms: data dictionary describes?	how structure of data and how they are to be used	DBMS
+db,dbms: data dictionary is also known as?	system catalog	DBMS
+db,dbms: definition of system catalog	a system-created database that contains the characteristics and contents of user-created databases	DBMS
+db,dbms: a system catalog is a (...) database	system-created	DBMS
+db,dbms: a system catalog contains the (...) and (...) of user-created databases	characteristics, content	DBMS
+db,dbms: a system catalog contains the characteristics and contents of (...) databases	User-created	DBMS
+db,dbms: definition of query language	a language that is used to retrieve selected data from a database	DBMS
+db,dbms: a query language is a language that is used to retrieve (...) from a database	selected data	DBMS
+db,dbms: query language is used by (...) for (...)	End-users, ad-hoc queries	DBMS
+db,dbms: SQL stands for?	structured query language	DBMS
+db,dbms: SQL is used by most (...) DBMSs as a standard method of (...)	relational, a standard method of issuing database commands	DBMS
+db,dbms: SQL is used by most (...) databases	relational	DBMS
+db,dbms SQL is used as a standard method of (...)	issuing database commands	DBMS
+db,dbms: mechanisms to control data access protects (...) by (...)	data integrity and privacy, controlling the actions that users can perform on the data	DBMS
+db,dbms: mechanisms to control data access protects (...)	data integrity and privacy	DBMS
+db,dbms: mechanisms to control data access protect data integrity and privacy by (...)	controlling the actions that users can perform on the data	DBMS
+db,dbms: host language interface is software that allows (...) to be combined with (...) to create (...)	database commands, standard programming language commands, applications	DBMS
+db,dbms: host language interface simplifies (...) by allowing the database to (...)	programming, handle the data-oriented portions of the application	DBMS
+db,dbms: host language interface simplifies (...)	programming	DBMS
+db,dbms: host language interface simplifies programming by allowing the database to (...)	handle the data-oriented portions of the application	DBMS
+db,dbms: data manipulation language enables users to do what?	access and manipulate data in a database	DBMS
+db,dbms: definition of 4GL development software	a visual interface software to develop applications	DBMS
+db,dbms: 4GL development software is a (...) to develop applications	visual interface software	DBMS
+db, dbms: 4GL development software is a visual interface software to (...)	develop applications	DBMS
+db,dbms: 4GL development software does?	form and report generators	DBMS
+db,dbms: disaster recovery is software that provides mechanisms to (...) and (...)	recover damaged data, control concurrent access	DBMS
+db,dbms: definition of concurrent access	the simultaneous access by multiple users	DBMS
+db,dbms: disaster recovery includes maintenance of a (...) that contains the (...)	transaction log, list of changes made to the database	DBMS
+db,dbms: disaster recover includes maintenance of a (...)	transaction log	DBMS
+db,dbms: a transaction log in disaster recover contains the (...)	list of changes made to the database	DBMS
+db: defintion of data models	conceptual methods of structuring data	data-models
+db: a data model is a (...) of structuring data	conceptual method	data-models
+db: a data model is a conceptual method of (...)	structuring data	data-models
+What are the four data models for implementing database systems?	hierarchical, network, relational, and object-oriented	data-models
+db: data model with a tree-like structure?	hierarchical model	data-models
+db: data model with a one-to-many relationship?	hierarchical model	data-models
+db: data model with many-to-many relationships?	network model	data-models
+db: the most popular and most prevalent data model?	relational model	data-models
+db: data model that has its data elements stored in tables?	relational model	data-models
+db: data models that use pointer-based retrieval?	hierarchical and network models	data-models
+db: data model that has its records organized as collections of arbitrary graphs?	network model	data-models
+db: data model that has its relationships between data structured as hierarchies?	hierarchical method	data-models
+db: data model that uses a collection of tables to represent data and relationships among data?	relational model	data-models
+db: A relational model is less (...) than pointer-based retrieval	machine-efficient	data-models
+db: A relational model is less machine-efficient than (...)	pointer-based retrieval	data-models
+db: A relational model can easily accomodate (...)	changes in the database structure	data-models
+db: data model that’s emerging technology?	object-oriented model	data-models
+db: data model that combines data and methods/processes used with the data?	object-oriented model	data-models
+db: An object-orientel model combines (...) and (...)	data, methods/processes	data-models
+db: data model that features the concept of inheritance of properties?	object-oriented model	data-models
+db: An object-oriented model features the concept of (...)	inheritance of properties	data-models
+db: In an object-oriented model, data and methods that can be performed on data are stored where?	in objects	data-models
+db: Object-oriented models are primarily implemented in (...) rather than (...)	engineering, business-oriented systems	data-models
+db: Relational models have an improved (...) of database programming	conceptual efficiency	data-models
+db: Relational models have an improved conceptual efficiency of (...)	database programming	data-models
+db: In a relational model, what can non-technical users do?	access the database and retrieve selected data through query languages	data-models
+db: Relational models have an increased (...) of information large-scale databases	availability	data-models
+What are the four types of databases according to the degree of centralization/decentralization of processing that they support?	centralized, distributed, client-server, and personalized (CDCSP)	database-types
+database type that has all its data located at a single site and controlled by a single computer?	centralized database	database-types
+database type that’s developed on a personal computer?	personalized database	database-types
+In a centralized database, what does the central computer do?	does all the data processing activities, data access and retrieval, programming, and conversion of results to the form required by the user	database-types
+In a centralized database, how can remote users access the database?	using terminals or data communication links	database-types
+database type that’s vulnerable to failure?	centralized database	database-types
+database type that has its database stored on a server, with much of the processing able to be moved to the client?	client-server database	database-types
+database type that’s a single logical database that’s physically spread across multiple computers?	distributed database	database-types
+In a distributed database, where would data be stored?	at the location where it is most frequently used	database-types
+Client-server databases are designed to support (...) processing	cooperative	database-types
+Centralized databases are vulnerable to?	failure	database-types
+Personalized databases are normally used and maintained by how many users?	one	database-types
+Personalized databases are designed to be easy for what kind of users?	non-technical	database-types
+Personalized databases risk creating (...)	islands of information	database-types
+db: What happens in islands of information?	data cannot readily be shared	database-types
+Client-server databases reduces workload on?	database servers	database-types
+Client-server databases allow higher (...) to be handled with the server’s capacity	volumes of transactions	database-types
+Client-server databases provide (...) to expand systems	greater flexibility	database-types
+Client-server databases give individual users greater (...)	control	database-types
+Distributed databases minimizes the load on (...)	communication networks	database-types
+Distributed databases gives users a sense of (...)	a sense of ownership over the data they use most frequently	database-types
+Distributed databases add complexity to (...)	database processing	database-types
+db: examples of structured data?	numeric values, characters, dates	data-and-information
+db: examples of unstructured data?	documents, maps, photos, audio, video	data-and-information
+db: Structured data is stored in what form?	tabular form	data-and-information
+db: a distributed database is a (...) database that’s physically spread across multiple computers	single logical	database-types
+db: a distributed database is a single logical database that’s (...) across multiple computers	physically spread	database-types
+db: a distributed database is a single logical database that’s physically spread across (...)	multiple computers	database-types
+db: a centralized database is vulnerable to (...)	failure	database-types
+db: a personalized database is developed on a (...)	personal computer	database-types
+db: a client-server database has its database stored on the (...)	server	database-types
+db: a client-server database has much of its processing able to be moved to the (...)	client 	database-types
+db: a centralized database has all its data located at a (...)	single site	database-types
+db: a centralized database has its data controlled by a (...)	single computer	database-types

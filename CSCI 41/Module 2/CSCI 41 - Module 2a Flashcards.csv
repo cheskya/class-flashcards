@@ -1,0 +1,76 @@
+In designing databases, we begin by examining what?	business rules
+ERD: What do business rules tell us?	what is/are important to an organization
+A conceptual data model captures what?	the overall structure of entities and the relationships among them
+ERD: definition of business rules	statements that define or constrain some aspect of the business
+ERD: Business rules are expressed in terms that are what?	familiar to end users
+ERD: Business rules are automated through what?	DBMS software
+ERD: Business rules (...) business structure	assert
+Business rules (...) or (...) business behavior	control, influence
+ERD: seven traits of good business rules?	declarative, precise, atomic, consistent, expressible, distinct, and business-oriented
+ERD: A declarative business rule?	focuses on the what, not how
+ERD: A precise business rule?	has clear, agreed-upon meanings
+ERD: An atomic business rule?	has one statement only
+ERD: A consistent business rule?	Is internally and externally consistent
+ERD: An expressible business rule?	uses structured, natural language
+ERD: A distinct business rule?	is non-redundant
+ERD: A business-oriented business rule?	Is understood by non-technical people
+ERD: Data names should be related to?	business or organization
+ERD: defintion of data definitions	explanation of a term or fact
+ERD,datadef: definition of “term”	word or phase with specific meaning
+ERD,datadef: definition of “fact”	association between two or more terms
+ERD: guidelines for data definitions?	(1) gathered in conjunction with systems requirements, (2) accompanied by diagrams, (3) iteratively created and refined, and (4) achieved by consensus
+A conceptual data model is a graphical model showing (...) and (...)	characteristics of entities, relationships among entities
+A conceptual data model is independent of what three things?	(1) how the database will be stored, (2) the data model used to implement the database, and (3) the type of DBMS to be used
+(...) is the most commonly used conceptual model	ERD
+ERD stands for?	Entity-relationship model
+ERD consists of what three things?	(1) entities, (2) relationships among entities, and (3) attributes of entities and relationships
+ERD: definition of entity 	a person, place, object, event or concept that an organization wishes to maintain data about
+ERD: How is an entity represented?	represented by a rectangle
+ERD: definition of entity type	a collection of all occurences of a given type of entity
+ERD: definition of entity instance	a single occurence of an entity type
+ERD: An entity type is also called?	entity class
+ERD: An entity type can have (...) instances	many
+ERD: An entity should be something that will have many (...) in the database	instances
+An entity should be something that will be composed of multiple (...)	attributes
+An entity should be something that we are trying to (...) or (...)	model, represent
+An entity should NOT be a (...) or (...) of the database system	user, output
+ERD: definition of attribute	a property or characteristic of an entity or relationship type
+ERD,attrclass: required vs (...)	optional
+ERD,attrclass: (...) vs optional	required
+ERD,attrclass: simple vs (...)	composite
+ERD,attrclass: (...) vs composite	simple
+ERD,attrclass: single-valued vs (...)	multi-valued
+ERD,attrclass: (...) vs multi-valued	single-valued
+ERD,attrclass: stored vs (...)	derived
+ERD,attrclass: (...) vs derived	stored
+ERD: five classifications of attributes?	(1) required vs optional, (2) simple vs composite, (3) single-valued vs multi-valued, (4) stored vs derived, and (5) identifiers
+ERD: definition of composite attributes	attributes broken into component parts
+ERD: The parts of a composite attribute are enclosed in what?	parentheses
+ERD: definition of multi-valued attributes	attributes having more than one value for each entity instance
+ERD: A multi-valued attribute is enclosed in what?	curly braces
+ERD: definition of derived attributes	attributes whose values can be calculated from other attribute values
+ERD: A derived attribute is enclosed in what?	square brackets
+ERD: An identifier is also called what?	a primary key
+ERD: definition of identifier/key	an attribute (or combination of multiple) that uniquely identifies individual isntances of an entity type
+ERD: definition of candidate identifier/key	an attribute that could be a key
+ERD: If an identifier is unique, then that means...?	no two entity instances can have the same value for the identifier
+ERD: An identifier should not change in (...)	value
+ERD: For identifiers, substitute (...) keys for (...) keys	new and simple, long and composite
+ERD: Time-stamping leads to a (...) and (...) attribute	multi-valued, composite
+ERD: definition of values	the value of the type of characteristic that an attribute represents
+The ERD contains only the attribute (...) and not its (...)	type, values
+ERD: definition of relationship	a natural association/link between the instances of one or more entities
+ERD: How is relationship represented?	by a line that connects entities
+ERD: relationship type is between entity (...)	types
+ERD: relationship instance is between specific entity (...)	instances
+ERD: definition of relationship degree	the number of entity types that participate in the relationship
+ERD: the most common relationship degrees?	unary, binary, and ternary
+ERD,rshipdeg: definition of unary relationship	a recursive relationship within a single entity
+ERD,rshipdeg: definition of binary relationship	an association between two entity types
+ERD,rshipdeg: definition of ternary relationship	an association among three entity types
+ERD: the three relationship cardinalities?	One-to-one, one-to-many, and many-to-many
+ERD,rshipcard: definition of optional relationship	instance of one entity may not be associated with instance of related entity
+ERD,rshipcard: definition of mandatory relationship	every instance in one entity type msut be associated with at least one instance in related entity
+ERD,rship: definition of cardinality constraints	number of instances of one entity that can/must be associated with each instance of another entity
+ERD,rshipcardcon: definition of minimum cardinality	if zero, optional relationship. If 1+, mandatory relationship
+ERD,rshipcardcon: definition of maximum cardinality	maximum number of instances that can be involved in the relationship

@@ -1,0 +1,11 @@
+ERD: Two entities can have (...) relationship types between them	more than one
+ERD: You can convert multi-valued attributes to (...)	relationships
+ERD: definition of strong entity	entity that exists independently of other entity types
+ERD: definition of weak entity	entity that is dependent on a strong entity
+ERD: How is a weak entity represented?	by a double line border
+ERD: A strong entity has its own (...) identifier	unique
+ERD: A weak entity only has a (...) identifier	partial
+ERD: What does an identifying relationship do?	links strong entities to weak entities
+ERD: An associative entity is also called...?	composite entities or gerunds
+ERD: An associative entity is a (...) modeled as an (...)	many-to-many relationship, entity type
+ERD: All relationships of an associative entity are (...)	Many-to-many
