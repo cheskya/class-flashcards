@@ -1,4 +1,8 @@
-"front","back","tags"
+
+#tags: CSCI50.01 CSCI50.01-Module4
+#tags column: 3
+#deck: "CSCI 50.01 Module 4a"
+#separator: comma
 "compmem: memory systems can be classified according to? (key characteristics)","location, capacity, unit of transfer, method of accessing, performance, physical type, physical characteristics, and organization (LCUMPPPO)",
 "compmem: location refers to?","whether memory is internal or external","location"
 "compmem: (...) refers to whether memory is internal or external","location","location"
